@@ -6,10 +6,6 @@ import javax.json.JsonObject;
 import javax.json.JsonObjectBuilder;
 
 
-/**
- *
- * @author Irina
- */
 public class JsonPersonBuilder {
      public JsonObject createJsonPersonObject(Person person) {
         JsonObjectBuilder job = Json.createObjectBuilder();

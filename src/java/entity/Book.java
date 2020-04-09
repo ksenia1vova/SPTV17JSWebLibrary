@@ -14,10 +14,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Temporal;
 
-/**
- *
- * @author user
- */
 @Entity
 public class Book implements Serializable {
     @Id

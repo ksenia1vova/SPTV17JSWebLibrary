@@ -33,10 +33,6 @@ import jsonbuilders.JsonUserBuilder;
 import session.BookFacade;
 import session.PersonFacade;
 
-/**
- *
- * @author user
- */
 @WebServlet(name = "UserController", loadOnStartup = 1, urlPatterns = {
     
     

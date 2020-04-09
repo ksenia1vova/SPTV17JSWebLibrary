@@ -10,10 +10,6 @@ import javax.json.Json;
 import javax.json.JsonObject;
 import javax.json.JsonObjectBuilder;
 
-/**
- *
- * @author user
- */
 public class JsonBookBuilder {
     public JsonObject createJsonObject(Book book){
        JsonObjectBuilder job = Json.createObjectBuilder();
