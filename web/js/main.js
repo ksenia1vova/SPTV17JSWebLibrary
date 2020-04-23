@@ -8,6 +8,10 @@ document.getElementById('sysout').onclick=function(){
     toogleMenuActive('sysout');
     authModule.logout();
 }
+document.getElementById('printNewBookForm').onclick=function(){
+    toogleMenuActive('printNewBookForm');
+    authModule.formNewBook();
+}
 
 function toogleMenuActive(elementId){
   let activeElement = document.getElementById(elementId);

@@ -34,8 +34,6 @@ import session.BookFacade;
 import session.PersonFacade;
 
 @WebServlet(name = "UserController", loadOnStartup = 1, urlPatterns = {
-    
-    
     "/addBook",
     
 })

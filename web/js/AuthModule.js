@@ -1,5 +1,6 @@
 import {httpModule} from './HttpModule.js';
 import {userModule} from './UserModule.js';
+import {listBooks} from './BookModule.js';
 
 class AuthModule{
     
